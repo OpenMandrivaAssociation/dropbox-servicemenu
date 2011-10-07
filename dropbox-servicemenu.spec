@@ -28,7 +28,6 @@ rm deinstall.sh
 %build
 # nothing to build
 
-
 %install
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT%{_kde_services}/ServiceMenus/
@@ -43,10 +42,8 @@ install -m 644 dropbox_all.desktop $RPM_BUILD_ROOT%{_kde_services}/ServiceMenus/
 install -m 644 dropbox_directories.desktop $RPM_BUILD_ROOT%{_kde_services}/ServiceMenus/
 install -m 644 dropbox_files.desktop $RPM_BUILD_ROOT%{_kde_services}/ServiceMenus/
 
-
 %clean
 rm -rf $RPM_BUILD_ROOT
-
 
 %files
 %defattr(-,root,root,-)
@@ -59,3 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_kde_services}/ServiceMenus/dropbox_all.desktop
 %{_kde_services}/ServiceMenus/dropbox_directories.desktop
 %{_kde_services}/ServiceMenus/dropbox_files.desktop
+
+%changelog
