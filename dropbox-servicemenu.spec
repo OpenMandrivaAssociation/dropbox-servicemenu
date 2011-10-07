@@ -16,8 +16,7 @@ BuildRequires:  kdebase4, desktop-file-utils
 Requires:       kdebase4, xdg-utils, python-m2crypto, sqlite3-tools
 
 %description
-Dropbox ServiceMenu is a servicemenu which allows easy access to most
-of Dropbox features.
+Dropbox ServiceMenu is a servicemenu which allows easy access to most of Dropbox features.
 
 %prep
 %setup -q -n DropboxServiceMenu-%{version}
