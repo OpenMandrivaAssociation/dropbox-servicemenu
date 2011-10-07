@@ -7,7 +7,7 @@ Name:           %{name}
 Version:        %{version}
 Release:        %{release}
 Summary:        Dropbox servicemenu for Konqueror and Dolphin
-Group:          Applications/Internet
+Group:          Networking/File transfer
 License:        GPLv3+
 URL:            http://kde-apps.org/content/show.php/Dropbox+ServiceMenu?content=124416
 Source0:        http://kde-apps.org/CONTENT/content-files/124416-DropboxServiceMenu-%{version}.tar.gz
