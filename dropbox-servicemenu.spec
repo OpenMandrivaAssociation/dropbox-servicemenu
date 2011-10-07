@@ -1,4 +1,3 @@
-%define date	%(echo `LC_ALL="C" date +"%a %b %d %Y"`)
 %define release %mkrel 1
 %define version	0.15.4
 %define name dropbox-servicemenu
