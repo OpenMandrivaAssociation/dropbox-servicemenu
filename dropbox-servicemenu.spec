@@ -1,15 +1,12 @@
 %define date	%(echo `LC_ALL="C" date +"%a %b %d %Y"`)
-%define release %mkrel 0
+%define release %mkrel 1
 %define version	0.15.4
-%define distsuffix edm
 %define name dropbox-servicemenu
 
 Name:           %{name}
 Version:        %{version}
 Release:        %{release}
 Summary:        Dropbox servicemenu for Konqueror and Dolphin
-Packager:	Dmitriy Perednya <perednyadm@mail.ru>
-
 Group:          Applications/Internet
 License:        GPLv3+
 URL:            http://kde-apps.org/content/show.php/Dropbox+ServiceMenu?content=124416
@@ -62,5 +59,3 @@ rm -rf $RPM_BUILD_ROOT
 %{_kde_services}/ServiceMenus/dropbox_all.desktop
 %{_kde_services}/ServiceMenus/dropbox_directories.desktop
 %{_kde_services}/ServiceMenus/dropbox_files.desktop
-
-
