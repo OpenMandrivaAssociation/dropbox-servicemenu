@@ -2,7 +2,7 @@ Name:           dropbox-servicemenu
 Version:        0.16.1
 Release:        2
 Summary:        Dropbox servicemenu for Konqueror and Dolphin
-Group:          Applications/Internet
+Group:          Networking/File transfer
 License:        GPLv3+
 #peace's latest fix
 Url:            http://kde-apps.org/content/show.php/Dropbox+ServiceMenu?content=124416
