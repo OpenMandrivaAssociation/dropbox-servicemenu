@@ -5,7 +5,7 @@ Summary:        Dropbox servicemenu for Konqueror and Dolphin
 Group:          Networking/File transfer
 License:        GPLv3+
 #peace's latest fix
-Url:            http://kde-apps.org/content/show.php/Dropbox+ServiceMenu?content=124416
+Url:            https://kde-apps.org/content/show.php/Dropbox+ServiceMenu?content=124416
 Source0:        http://dl.dropbox.com/u/4127065/DropboxServiceMenu-0.16.1_peace.tar.gz
 BuildArch:      noarch
 BuildRequires:  kdebase4, desktop-file-utils
